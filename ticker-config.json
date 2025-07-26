@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "messages": [
+    {
+      "id": "welcome",
+      "text": "🎉 Bem-vindo ao Neko TV! ",
+      "link": {
+        "text": "Site oficial",
+        "url": "https://nekotv.vercel.app",
+        "target": "_blank"
+      },
+      "suffix": " - A melhor experiência de streaming!",
+      "duration": 15,
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "id": "update",
+      "text": "🚀 Nova atualização disponível! ",
+      "link": {
+        "text": "Ver novidades",
+        "url": "https://github.com/nekotv-official/releases",
+        "target": "_blank"
+      },
+      "duration": 12,
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "id": "support",
+      "text": "❤️ Apoie o projeto no ",
+      "link": {
+        "text": "GitHub",
+        "url": "https://github.com/nekotv-official",
+        "target": "_blank"
+      },
+      "suffix": " deixando uma ⭐!",
+      "duration": 10,
+      "priority": 3,
+      "enabled": true
+    }
+  ],
+  "defaultDuration": 12,
+  "rotationInterval": 15000,
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-20T10:00:00Z",
+    "author": "Neko TV Admin"
+  }
+}
